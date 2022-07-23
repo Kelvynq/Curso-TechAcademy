@@ -1,0 +1,19 @@
+/*União de seletores*/
+a , .menuitem{
+    text-decoration: underline;
+    color: blue;
+}
+
+a{
+    background: #aaaaaa;
+}
+
+/*Id e Classe para edição mais especificado*/
+a.link{
+    background: black;
+}
+
+/*O uso de > para filho direto*/
+#menubar > li{
+    margin: 10px;
+}

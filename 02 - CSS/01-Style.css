@@ -1,0 +1,18 @@
+body {
+    background-color: green;
+}
+
+h1 {
+    font-size: 155px;
+    color: #FFFFFF;
+}
+
+p {
+    background-color: white;
+    color: rgb(241, 64, 241);
+}
+
+a {
+    text-decoration: none;
+    border: 5px solid yellow;
+}

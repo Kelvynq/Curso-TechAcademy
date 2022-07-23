@@ -1,0 +1,13 @@
+.flex-container{
+    display: flex; /*Início de um flexbox*/
+    background-color: gold;
+    justify-content: center; /*Alinhamento de blocos - Todos os blocos no centro*/
+    flex-direction: column; /*Estabelece a direção que os itens flex são colocados no contêiner flex*/
+}
+
+.flex-container > div{ /*Pegando a div que tem dentro dele*/
+     background-color: blueviolet; /*pinta as divs*/
+     margin: 10px; /*da a margin as divs*/
+     padding: 20px;
+     font-size: 30px;
+}

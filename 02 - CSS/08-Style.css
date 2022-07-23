@@ -1,0 +1,20 @@
+/*Padding*/
+div{
+    width: 400px;
+    height: 150px;
+    background-color: pink;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+/*Espaço da margem nos 4 lados e padding a direita*/
+#bloco1{
+    margin: 50px;
+    padding-left: 100px;
+}
+
+/*Centralizado a direita e o uso do padding*/
+#bloco2{
+    margin-left: auto;
+    padding: 20px 40px 60px 80px;
+}

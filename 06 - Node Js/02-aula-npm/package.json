@@ -1,0 +1,12 @@
+{
+  "name": "aula-npm",
+  "version": "1.0.0",
+  "description": "iniciando Node js e npm",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "J Kelvyn",
+  "license": "MIT"
+}

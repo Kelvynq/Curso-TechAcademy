@@ -1,0 +1,14 @@
+/*Cor da borda direita azul
+Cor da borda esquerda verde
+Modelo de borda superior dashed
+Modelo de borda inferior double*/
+div{
+    width: 400px;
+    height: 300px;
+    background-color: pink;
+    border: 15px groove red;
+    border-left-color: blue;
+    border-right-color: green;
+    border-top-style: dashed;
+    border-bottom-style: double;
+}

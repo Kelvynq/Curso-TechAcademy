@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <style>
+
+    ol.romano {
+        list-style-type: lower-roman; /*Lista em algoritmo romano*/
+        border: 1px solid red;
+      }
+      
+      ul.quad {
+        list-style-type: circle; /*Lista com círculo*/
+        border: 1px solid blue;
+
+      }
+      
+      ul.img {
+        list-style-image: url(https://assets.codepen.io/t-1/user-default-avatar.jpg?fit=crop&format=auto&height=10&version=0&width=10);
+        border: 1px solid yellow;
+    } /*Lista com os tópicos com imagens*/
+
+      
+      ul.menu {
+        list-style-type: none; /*Não apresenta marcador*/
+        padding: 0;
+        border: 1px solid green;
+
+      }
+      
+      ul.menu li {
+        display: block;
+        float: left;
+        padding: 5px 10px;
+      }
+      ul.menu li a {
+        text-decoration: none; /*Remoção da linha do link*/
+      }
+      ul.menu li:hover {
+        background-color: cyan; /*Quando o mouse está sob a lista ele fica azul*/
+      }
+      ul.menu li:hover a {
+        text-decoration: underline; /*Linha quando passar o mouse*/
+      }
+      </style>
+
+</head>
+<body>
+    <ol class="romano">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+      </ol>
+      
+      <ul class="quad">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+      </ul>
+      
+      <ul class="img">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+      </ul>
+      
+      <ul class="menu">
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+</body>
+</html>

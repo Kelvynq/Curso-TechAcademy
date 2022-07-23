@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <!-- Criação de Layout de forma mais complexa linhas e colunas-->
+</head>
+       <style>
+       *{
+        box-sizing: border-box;
+      }
+      
+      .grid-container {
+        /*Utilização de grid*/
+        display: grid;
+        /*Tamanho de coluna*/
+        grid-template-columns: 80px 200px auto 40px;
+        /*Tamanho de linha*/
+        grid-template-rows: 60% auto 10%;
+        background-color: #2196F3;
+        padding: 10px;
+        height: 400px;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 10px;
+        text-align: center;
+      }
+      
+      .item9 {
+        /*Começando na primeira coluna com 4 espaços de coluna*/
+        grid-column: 1 / span 4;
+      }
+      </style>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>  
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>  
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item item9">9</div>  
+      </div>      
+</body>
+</html>

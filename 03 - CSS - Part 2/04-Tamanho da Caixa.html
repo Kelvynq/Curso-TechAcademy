@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho da caixa</title>
+    <!--Conteúdo - Padding - Borda - Margem-->
+    <style>
+
+        /*Apresenta 280 de conteúdo e 20 de borda*/
+        .div1 {
+        box-sizing: border-box;
+        width: 300px;
+        height: 100px;
+        border: 10px solid blue;
+    }
+
+        .div2 {
+        box-sizing: border-box;
+        width: 300px;
+        height: 100px;
+        padding: 50px;
+        border: 10px solid red;
+    }
+
+        #page {
+        height: 300px;
+        background-color: pink;
+    }
+
+        #page div {
+        /*Se adapta ao tamanho ideal*/
+        box-sizing: border-box;
+        border: 1px dashed red;
+        display: inline-block;
+        width: 33%;
+        height: 100%;
+        margin: 0;
+        padding: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+
+    <div id="page">
+      <div>conteúdo 1</div>
+      <div>conteúdo 2</div>      
+      <div>conteúdo 3</div>
+    </div>
+</body>
+</html>

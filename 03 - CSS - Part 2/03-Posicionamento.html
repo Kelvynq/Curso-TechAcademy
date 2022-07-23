@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+
+        /*Posicionamento relativo - considera o left*/
+        div.relative {
+        position: relative;
+        left: 30px;
+        width: 300px;
+        height: 50px;
+        background-color: pink;
+        border: 3px solid #73AD21;
+    }
+        
+        /*Posicionamento fixado - Fixado na tela de acordo com o posicionamento*/
+        div.fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        background-color: pink;
+        border: 3px solid #73AD21;
+    }
+
+        /*Posicionamento absoluto*/  
+        div.absolute {
+        position: absolute;
+        top: 280px;
+        right: 80px;
+        width: 200px;
+        height: 100px;
+        border: 3px solid #73AD21;
+    }
+
+        div.sticky {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        margin-top: 10px;
+        top: 0;
+        background-color: green;
+        border: 2px solid #4CAF50;
+        }
+
+      #bloco {
+      position: relative;
+      height: 200px;
+      overflow-y: scroll;
+      border: 1px solid red;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="relative">
+        Exemplo de Relativo
+      </div>
+      
+      <div class="fixed">
+        Exemplo de Fixo
+      </div>
+      
+      
+      
+      <div class="absolute">
+        Exemplo de Absoluto
+      </div>
+      
+      <div id="bloco">
+        
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lectus mauris, euismod eu lectus nec, 
+        placerat ultricies est. Suspendisse id nulla neque. Praesent gravida enim vitae orci ultrices, vulputate lacinia libero faucibus. Nullam nec arcu sit amet tellus aliquet aliquam at condimentum erat. Mauris eget consectetur odio, ac lobortis nunc. Nulla scelerisque ex fringilla, consequat tellus ac, fermentum eros. <div class="sticky">
+        Exemplo de Sticky
+       </div>
+        Maecenas efficitur bibendum ipsum, vitae cursus justo rhoncus vel. Etiam nec velit et nibh vulputate varius in vulputate metus. Praesent dignissim tempor tellus. Etiam sagittis, ipsum a cursus tincidunt, dui felis accumsan mauris, id aliquet dui urna non augue. Phasellus sodales justo ex, ac rhoncus velit faucibus sit amet. Aenean aliquet sagittis nisi ut rutrum. Praesent pharetra placerat augue, sit amet volutpat diam maximus non. Nunc ultricies leo vel dui lobortis feugiat. Nullam mollis lectus eget dui elementum mollis. Etiam a mauris ullamcorper, viverra urna suscipit, fermentum ante. 
+        Praesent pharetra placerat augue, sit amet volutpat diam maximus non. Nunc ultricies leo vel dui lobortis feugiat. Nullam mollis lectus eget dui elementum mollis. Etiam a mauris ullamcorper, viverra urna suscipit, fermentum ante.
+      </div>
+</body>
+</html>

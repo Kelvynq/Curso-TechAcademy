@@ -1,0 +1,9 @@
+/*Definição de cor, imagem, repetição e posicionamento*/
+div{
+    width: 300px;
+    height: 300px;
+    background-color: #ABFACC;
+    background-image: url('https://www.w3schools.com/css/paper.gif');
+    background-repeat: repeat-x;
+    background-position: center center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textos</title>
+</head>
+       <style>
+       p {
+        text-align: justify; /*Texto justificado*/
+        line-height: 1.5em; /*Tamanho da linha*/
+        text-indent: -3em; /*Identação*/
+        padding-left: 4em; /*Espaço quando a identação está negativa*/
+        letter-spacing: 1px; /*Espaço entre as letras*/
+        word-spacing: 1em; /*Espaçamento entre as palavras*/
+      }
+      
+      p > span {
+        font-size: 1.7em;
+        color: red;
+        vertical-align: sub; /**/
+        text-decoration-line: underline overline; /*Onde a linha vai aparecer*/
+        text-decoration-style: wavy; /*Estilo da linha*/
+        text-decoration-thickness: 3px; /*Espessura da linha*/
+      }
+      
+      p.special {
+        overflow: hidden;
+        white-space: nowrap; /*Aceita o espaço em branco*/
+        text-overflow: " (continua...)"; /*Overflow do texto do elemento*/
+        background: pink;
+        margin-bottom: 20px;
+      }
+      </style>
+<body>
+    <h1>Textos</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dui eget justo convallis eleifend lacinia et nisl. Suspendisse dapibus, elit sit amet condimentum ultrices, tellus est mollis nisi, in laoreet nisl justo non elit. Nunc a lacinia mi. Praesent imperdiet lectus id vehicula finibus. Vestibulum a velit dui. In quis volutpat magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce maximus nec lorem nec luctus. Vivamus sollicitudin quis neque et luctus. Duis quis lectus turpis.</p>
+
+<p>Fusce a metus faucibus, posuere risus in, laoreet libero. Sed semper aliquet lectus lacinia venenatis. Phasellus a mollis mi. Quisque in tempor enim. Vestibulum consectetur aliquet ex, eu feugiat nunc eleifend in. Nunc id turpis eros. Integer aliquam vestibulum lacus, a aliquam orci vestibulum id. Suspendisse faucibus nunc sagittis ultrices porta. Maecenas commodo odio sit amet libero efficitur, eleifend ornare arcu eleifend. Vestibulum sit amet nibh ultrices, tincidunt justo eget, cursus nunc. Nunc laoreet dolor non purus molestie, nec sollicitudin ante aliquet. Cras tincidunt fermentum magna, et mattis purus vehicula non. Donec in mollis sem. Quisque sed dictum nunc. Curabitur ac ornare massa. Curabitur nisi sem, tempus eget finibus id, commodo in ipsum.</p>
+
+<p>Quisque ultricies urna velit, in condimentum elit placerat commodo. Mauris eget mattis erat. Cras elit est, gravida ac ante non, rhoncus sodales urna. Aliquam posuere magna in dolor aliquet, vitae lobortis sem placerat. Aliquam ac velit finibus, porttitor justo id, euismod tortor. Suspendisse potenti. Maecenas accumsan nulla ac lacus ultricies accumsan. Vestibulum scelerisque lorem in luctus viverra. Aliquam fermentum, erat a aliquam mollis, ligula urna sollicitudin nisl, ac volutpat ante tellus id dolor. Nunc sed auctor urna, id aliquet turpis. Ut sit amet quam tellus. Sed commodo gravida justo, sit amet porta justo volutpat eu.</p>
+
+<p class="special">Proin convallis velit vitae nulla rhoncus, at iaculis metus fringilla. Donec lacus elit, hendrerit elementum tortor convallis, porttitor blandit lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut id tincidunt felis. Sed suscipit congue eros, sed imperdiet eros blandit ut. Quisque ipsum libero, ultrices feugiat quam non, blandit facilisis ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar urna mauris, at gravida libero molestie vel.</p>
+
+<p>Aliquam erat volutpat. Nullam <span>felis nunc</span>, laoreet eu interdum quis, sodales eget risus. In tincidunt sodales felis, a consequat mi rhoncus et. Quisque sodales, turpis maximus imperdiet consequat, sapien justo sollicitudin turpis, nec facilisis felis dolor nec sem. Proin non blandit tortor, eget elementum risus. Donec id ante vestibulum, dictum purus vitae, ultrices libero. Phasellus elementum eu velit non placerat. Sed convallis, mi quis auctor rhoncus, purus arcu varius tortor, ac consequat arcu odio nec risus. Nulla at interdum sem. Morbi at ante diam. </p>
+</body>
+</html>

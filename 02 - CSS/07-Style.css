@@ -1,0 +1,18 @@
+div{
+    background: pink;
+    border: 1px solid red;
+}
+
+/*Tamanho da caixa*/
+#element1{
+    width: 500px;
+    height: 150px;
+}
+
+/*Tamanho máximo e mínimo da caixa*/
+#element2{
+    max-width: 480px;
+    max-height: 400px;
+    min-width: 400px;
+    min-height: 200px;
+}

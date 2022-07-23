@@ -1,0 +1,24 @@
+a{
+    font-size: 28px;
+    text-decoration: none;
+}
+
+/*Quando passa o mouse*/
+a:hover, h1:hover{
+     background-color: yellow;
+}
+
+/*Quando Clica e passa o mouse*/
+a:visited, h1:hover{
+    color: purple;
+}
+
+/*Quando começa a digitar*/
+input:focus{
+    background-color: yellow;
+}
+
+/*Estilizando primeiro item da lista*/
+#meuslinks li:first-child{
+   background: red;
+}

@@ -1,0 +1,30 @@
+/*Estilização do label com atributo for*/
+label[for]{
+    background-color: yellow;
+}
+
+.obrigatorio{
+    color: red;
+}
+
+/*Estilização do input do type texto*/
+input[type=text]{
+    background: #eee;
+    margin: 1px solid back;
+}
+
+/*Estilização do a href que recebe edu*/
+a[href*=edu]{
+    background-color: green;
+    color: #FFF;
+}
+
+/*Estilização do option que recebe value = R*/
+option[value=R]{
+   color: red;
+}
+
+/*Estilização do option que recebe value = E*/
+option[value=E]{
+    color: green;
+}

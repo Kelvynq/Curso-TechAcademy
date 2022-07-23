@@ -1,0 +1,6 @@
+/*Definição de cor com HSL*/
+div{
+    height: 150px;
+    width: 300px;
+    background-color: hsl(0, 100%, 50%);
+}

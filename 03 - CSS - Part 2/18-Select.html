@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+    <style>
+    .row select {
+        vertical-align: text-top;
+      }
+      
+      form > div {
+        margin: 10px;
+      }
+      </style>
+</head>
+<body>
+    <form>
+  
+        <div>
+        <label for="opcoes">Selecione uma opção:</label>
+      <select name="opcao" id="opcoes">
+          <!--Normalmente utilizado quando há muitas opções para ser apresentado-->
+        <option value="1">Primeiro item</option>
+        <option value="2" selected>Segundo item</option>
+        <option value="3">Terceiro item</option>
+      </select>
+        </div>
+        
+        <div class="row">
+           <label for="opcoes">Selecione um animal:</label>
+          <select name="pets" id="pets" multiple size="8">
+              <!--Size = Tamanho da barra de rolar-->
+              <!--multiple == Vários elementos pontem ser marcados-->
+              <!--optgroup  separar por grupo-->
+          <optgroup label="4 Patas">
+            <option value="dog">Cachorro</option>
+            <option value="cat">Gato</option>
+            <!--Opção desabilitada-->
+            <option value="hamster" disabled>Hamster</option>
+          </optgroup>
+          <!--optgroup  separar por grupo-->
+          <optgroup label="Pássaros">
+            <option value="parrot">Papagaio</option>
+            <option value="macaw">Arara</option>
+            <option value="albatross">Albatroz</option>
+          </optgroup>
+        </select>
+        </div>
+      </form>
+</body>
+</html>

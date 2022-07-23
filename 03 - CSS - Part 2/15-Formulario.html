@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Input</title>
+    <style>
+        form > div {
+        margin: 10px;
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <!--label = Definir rótulo-->
+          <label for="nome">Cor principal: </label>
+          <!--Placeholder = informação do que deve ser digitado-->
+          <input type="text" id="nome" name="nome" placeholder="Nome completo">
+        </div>
+        
+      <div>
+        <label for="icor">Cor principal: </label>
+        <!--Valor = campo já preenchido / type=color define cor-->
+          <input type="color" id="icor" name="cor" value="#e66465">
+      </div>
+        
+       <div> 
+        <label for="start">Data de início:</label>
+        <!--type=date define data-->
+      <input type="date" id="start" name="trip-start"
+             value="2018-07-22"
+             min="2018-01-01" max="2018-12-31">
+        </div>
+        
+        <div>
+            <!--Define email-->
+          <label for="email">E-mail:</label>
+          <!--Size = Tamanho do campo-->
+          <input type="email" id="email" size="30" required>
+        </div>
+        
+        <div>
+          <label for="idade">Idade:</label>
+          <!--Define número saltando de 5 em 5-->
+      <input type="number" id="idade" name="idade"
+             min="10" max="100" step="5">
+        </div>
+        
+        <div>
+          <label for="pass">Senha:</label>
+          <!--type = password senha -->
+          <input type="password" id="pass" name="password"
+                 minlength="8" required>
+      </div>
+        
+        <div>
+          <label for="volume">Intervalo</label>
+          <!--Valor mín, max e pradrão-->
+        <input type="range" id="volume" name="volume"
+               min="0" max="11" value="7">
+        
+      </div>
+        
+        <div>
+          <label for="site-search">Busca:</label>
+          <!--De busca-->
+      <input type="search" id="site-search" name="q">
+        </div>
+        
+        <div>
+          <label for="appt">Hora:</label>
+          <!--Hora-->
+      <input type="time" id="appt" name="appt"
+             min="09:00" max="23:00" required>
+        </div>
+        
+        <div>
+        <label for="url">URL:</label>
+        <!--URL-->
+      <input type="url" name="url" id="url"
+             placeholder="http://www.site.com"
+             size="30" required>
+        </div>
+      </form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+/*Estilização do id titulo*/
+#titulo{
+    font-size: 45px;
+    color: blue;
+}
+
+/*Estilização do id conteudo*/
+#conteudo{
+    border: 1px solid red;
+}
+
+/*Estilização da class teste*/
+.teste{
+    background-color: yellow;
+}
+
+/*Estilização da class pequeno*/
+.pequeno{
+    font-size: 16px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Complexa</title>
+    <!-- CSS da tabela-->
+    <!-- Tamanho e fonte em thead -->
+    <!-- Negrito e posicionamento em tbody -->
+    <!-- Estilização da legenda em Caption -->
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px dashed gray;
+        }
+        thead{
+            color: black;
+            font-size: 12pt; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: lightpink;
+        }
+
+        tbody{
+            font-weight: bold;
+            text-align: center;
+        }
+
+        tfoot{
+            color: gray;
+            background-color: lightpink;
+        }
+
+        tr,td,th{
+            border: 1px dashed gray;
+        }
+
+        caption{
+            caption-side: bottom;
+            color: blueviolet;
+            font-size: 9pt;
+            text-align: left;
+        }
+
+        tbody tr:nth-child(even){
+            background-color: lightskyblue;
+        }
+
+        tbody tr:nth-child(odd){
+            background-color: lightcyan;
+        }
+
+        tbody tr:hover{
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- TABELAS COMPLEXAS-->
+    <table border="1">
+        <caption>Tabela 1. Relação de clientes da ABC Company</caption>  <!-- Legenda de tabela-->
+        <thead>     <!-- Head da tabela-->
+        <tr>
+            <th rowspan="2">Nome</th>      <!-- MESCLA LINHA -->
+            <th rowspan="2">Telefone</th>  <!-- MESCLA LINHAS -->
+            <th colspan="5">Endereço</th>  <!-- MESCLA COLUNAS -->
+        </tr>
+        <tr>
+            <th>Rua</th>
+            <th>Número</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>CEP</th>
+        </tr>
+    </thead>
+    <tbody> <!-- Body da tabela-->
+        <tr>
+            <td>José Kelvyn dos Santos Silva</td>
+            <td>+55 (83) 98612-8206</td>
+            <td>José Aranha</td>
+            <td>160</td>
+            <td>Campina Grande</td>
+            <td>Paraíba</td>
+            <td>58406-855</td>
+        </tr>
+        <tr>
+            <td>José Kelvyn dos Santos Silva</td>
+            <td>+55 (83) 98612-8206</td>
+            <td>José Aranha</td>
+            <td>160</td>
+            <td>Campina Grande</td>
+            <td>Paraíba</td>
+            <td>58406-855</td>
+        </tr>
+        <tr>
+            <td>José Kelvyn dos Santos Silva</td>
+            <td>+55 (83) 98612-8206</td>
+            <td>José Aranha</td>
+            <td>160</td>
+            <td>Campina Grande</td>
+            <td>Paraíba</td>
+            <td>58406-855</td>
+        </tr>
+        <tr>
+            <td>José Kelvyn dos Santos Silva</td>
+            <td>+55 (83) 98612-8206</td>
+            <td>José Aranha</td>
+            <td>160</td>
+            <td>Campina Grande</td>
+            <td>Paraíba</td>
+            <td>58406-855</td>
+        </tr>
+    </tbody>
+    <tfoot> <!-- Footer da tabela-->
+        <tr>
+            <td colspan="7">Para mais informações entre em contato conosco</td>
+        </tr>
+    </tfoot>
+    </table>
+    
+</body>
+</html>

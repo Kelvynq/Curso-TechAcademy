@@ -1,0 +1,41 @@
+p{
+    background-color: #CCF;
+}
+
+/*Estilização da primeira letra*/
+p::first-letter{
+    font-size: 40px;
+    font-size: 2em;
+    background-color: #AAD;
+}
+
+/*Estilização da primeira linha*/
+div::first-line{
+    color: blue;
+}
+
+li{
+    color: green;
+}
+
+/*Estilização dos marcadores*/
+::marker{
+    color: red;
+}
+
+/*Estilização ao selecionar o texto*/
+::selection{
+    color: red;
+    background: yellow;
+}
+
+/*Estilização ao selecionar o texto*/
+::selection{
+    color: red;
+    background: yellow;
+}
+
+div::selection{
+    color: black;
+    background-color: white;
+}

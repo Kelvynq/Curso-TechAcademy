@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <!--Modifica o para linha o bloco-->
+    <style>
+        p{
+            border: 1px solid red;
+            background-color: pink;
+            margin: 10px;
+        }
+        p.exa1{display: none;} /*Como não houvesse nada*/
+        p.exa2{visibility: hidden;} /*Não apresenta na tele*/
+        p.exb{display:inline;} /*Tranforma a tag em formato linha*/
+        p.exc{display: block;} /*Transforma a tag em formato de bloco*/
+        p.exd{display: inline-block;} /*Linha com comportamentos de bloco*/
+
+    </style>
+</head>
+<body>
+    <p class="exa1">Parágrafo A1</p>
+    <p class="exa2">Parágrafo A2</p>
+    <p class="exb">Parágrafo B</p>
+    <p class="exc">Parágrafo C</p>
+    <p class="exd">Parágrafo D</p>
+</body>
+</html>
